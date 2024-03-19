@@ -5,7 +5,7 @@ Dim oTCD
 Set oTCD = New TCDCalendar
 
 debug.WriteLine oTCD.Init("Provider=Microsoft.ACE.OLEDB.12.0;WSS;IMEX=1;RetrieveIds=Yes;" & _
-		  "DATABASE=https://volvogroup.sharepoint.com/sites/unit-financean/exrate/HU02_exrate;" & _
+		  "DATABASE=https://${YOUR_TENANT}.sharepoint.com/sites/unit-financean/exrate/HU02_exrate;" & _
 		  "LIST=HU02_exrate_calendar;")
 
 
