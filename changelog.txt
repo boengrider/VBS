@@ -1,0 +1,6 @@
+********************
+SPLite.class_v2.vbs
+02.06.2022
+*******************
+1) Added GetListItems() method
+2) Added SiteUrl property

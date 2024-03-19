@@ -1,0 +1,13 @@
+Json request example to add list item
+
+"""Title"":""" & SCRIPTNAME & """,""LastRunResult"":""0""}"
+^^^^^^^^^^       ^^^^^^^^^^         ^^^^^^^^^^^^^   ^^^^^^^
+field name	field value	    field name 	    field value
+
+
+Json request example to update list item based on value in the field "Title"
+
+oSP.UpdateListItem SPLISTNAME,   SCRIPTNAME,   """LastRunResult"":""0""}"
+                   ^^^^^^^^^^^   ^^^^^^^^^^^   ^^^^^^^^^^^^^^^^^^^^^^^^^
+		   List name	 Value in the     Field:Value pairs
+				"Title" field
